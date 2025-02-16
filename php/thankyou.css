@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Style the content */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the thank you box */
+.thank-you-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the checkmark icon */
+.checkmark svg {
+    width: 60px;
+    height: 60px;
+    fill: #4CAF50; /* Green color for the checkmark */
+    margin-bottom: 20px;
+}
+
+/* Style the thank you text */
+.thank-you-text {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph text */
+.thank-you-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style the home button */
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3e2093; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the home button */
+.home-button:hover {
+    background-color: #5029bc; /* Darker background color on hover */
+}
